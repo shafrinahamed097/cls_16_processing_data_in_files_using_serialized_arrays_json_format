@@ -19,3 +19,11 @@ echo $allfruits3 ."\n";
 // json reverse
 $allfruits4 = explode(', ', $allfruits3);
 print_r($allfruits4);
+
+/*
+Output
+Array
+(
+    [0] => ["apple","banana","orange","plum","dates","mango"]
+)
+*/
