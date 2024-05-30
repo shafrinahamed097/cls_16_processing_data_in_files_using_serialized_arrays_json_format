@@ -13,5 +13,9 @@ echo $allfruits2 ."\n";
 
 // json
 $allfruits3 = json_encode($fruits);
-echo $allfruits3;
+echo $allfruits3 ."\n";
 // ["apple","banana","orange","plum","dates","mango"]
+
+// json reverse
+$allfruits4 = explode(', ', $allfruits3);
+print_r($allfruits4);
