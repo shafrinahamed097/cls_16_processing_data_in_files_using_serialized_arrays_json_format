@@ -1,4 +1,7 @@
 <?php
 
 // delete a file
-unlink('data.txt');
+if(file_exists('data1.txt')){
+    unlink('data.txt');
+    echo "File Deleted";
+}
