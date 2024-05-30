@@ -9,7 +9,6 @@ $string = $date->format('Y-m-d H:i:s');
 
 
 
-
 // unix epoch
 $timestamp = strtotime('now');
 echo $timestamp ."\n";
@@ -34,6 +33,8 @@ $date3 = new DateTime('now', new DateTimeZone('Asia/Dhaka'));
 echo $date3->format('d-m-Y g:i:s a') ."\n";
 
 $date3->sub(new DateInterval('P2Y10M4D'));
-echo $date3->format('d-m-Y g:i:s a');
+echo $date3->format('d-m-Y g:i:s a') ."\n";
+
+
 
 
