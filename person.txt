@@ -1,1 +1,3 @@
-{"fname":"John","lname":"Doe","age":25}
+{"fname":"John","lname":"Doe","age":25,"hobbies":["tennis","reading","movies","singing"]}{"fname":"John","lname":"Doe","age":25,"hobbies":["tennis","reading","movies","singing"]}{"fname":"John","lname":"Doe","age":25,"hobbies":["tennis","reading","movies","singing","football"]}
+{"fname":"John","lname":"Doe","age":25,"hobbies":["tennis","reading","movies","singing","football"]}
+{"fname":"John","lname":"Doe","age":25,"hobbies":["tennis","reading","movies","singing","football"]}
