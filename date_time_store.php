@@ -22,9 +22,18 @@ $date2 = new DateTime('@' .$timestamp);
 echo $date2->format('Y-m-d H:i:s');
 echo "\n";
 
-// add 10 days
+
+// add 2 Years 10 Month 4 Days
 
 $date2->add(new DateInterval('P2Y10M4D'));
-echo $date2->format('d-m-Y g:i:s a');
+echo $date2->format('d-m-Y g:i:s a') ."\n";
+
+// Substract 2Years 10 Month 4 Days
+
+$date3 = new DateTime('now', new DateTimeZone('Asia/Dhaka'));
+echo $date3->format('d-m-Y g:i:s a') ."\n";
+
+$date3->sub(new DateInterval('P2Y10M4D'));
+echo $date3->format('d-m-Y g:i:s a');
 
 
