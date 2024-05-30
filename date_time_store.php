@@ -35,6 +35,10 @@ echo $date3->format('d-m-Y g:i:s a') ."\n";
 $date3->sub(new DateInterval('P2Y10M4D'));
 echo $date3->format('d-m-Y g:i:s a') ."\n";
 
+$timestamp1 = time();
+echo $timestamp1;
+
+
 
 
 
